@@ -1,17 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {
-  Breadcrumb,
-  Icon,
-  Row,
-  Col,
-  Layout,
-  Card,
-  Avatar,
-  Divider,
-} from 'antd';
-
+import {Breadcrumb, Icon, Row, Col, Layout, Card, Avatar, Divider} from 'antd';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import 'antd/dist/antd.css';
 
 const {Header, Content, Footer} = Layout;
 
@@ -66,52 +58,54 @@ export default () => (
             <Icon type="bulb" theme="filled" />
           </span>
         </Col>
-        <Col
-          span={12}
-          style={{
-            textAlign: 'left',
-            height: 50,
-            display: 'flex',
-            justifyContent: 'flex-end',
-            textTransform: 'uppercase',
-          }}
-        >
-          <div style={{width: 'fit-content', margin: 'auto 0px'}}>
-            <link href="/home">
-              <a>
-                Home
-              </a>
-            </link>
-          </div>
-          <div style={{width: 'fit-content', margin: 'auto 0px'}}>
-            <link href="/about">
-              <a>
-                About
-              </a>
-            </link>
-          </div>
-          <div style={{width: 'fit-content', margin: 'auto 0px'}}>
-            <link href="/projects">
-              <a>
-                Projects
-              </a>
-            </link>
-          </div>
-          <div style={{width: 'fit-content', margin: 'auto 0px'}}>
-            <link href="/blog">
-              <a>
-                Blog
-              </a>
-            </link>
-          </div>
-          <div style={{width: 'fit-content', margin: 'auto 0px'}}>
-            <link href="/contact">
-              <a>
-                Contact
-              </a>
-            </link>
-          </div>
-        </Col>
+        <Router>
+          <Col
+            span={12}
+            style={{
+              textAlign: 'left',
+              height: 50,
+              display: 'flex',
+              justifyContent: 'flex-end',
+              textTransform: 'uppercase',
+            }}
+          >
+            <div style={{width: 'fit-content', margin: 'auto 0px'}}>
+              <Link to="/home">
+                <a>
+                  Home
+                </a>
+              </Link>
+            </div>
+            <div style={{width: 'fit-content', margin: 'auto 0px'}}>
+              <Link to="/about">
+                <a>
+                  About
+                </a>
+              </Link>
+            </div>
+            <div style={{width: 'fit-content', margin: 'auto 0px'}}>
+              <Link to="/projects">
+                <a>
+                  Projects
+                </a>
+              </Link>
+            </div>
+            <div style={{width: 'fit-content', margin: 'auto 0px'}}>
+              <Link to="/blog">
+                <a>
+                  Blog
+                </a>
+              </Link>
+            </div>
+            <div style={{width: 'fit-content', margin: 'auto 0px'}}>
+              <Link to="/contact">
+                <a>
+                  Contact
+                </a>
+              </Link>
+            </div>
+          </Col>
+        </Router>
       </Row>
     </Header>
     <br />
@@ -144,34 +138,36 @@ export default () => (
             <Col span={22}>
               <Card
                 actions={[
-                  <link href="/about">
-                    <a>
-                      <Icon type="user" />
-                      <br />
-                      About Me
-                    </a>
-                  </link>,
-                  <link href="/projects">
-                    <a>
-                      <Icon type="project" />
-                      <br />
-                      Past Projects
-                    </a>
-                  </link>,
-                  <link href="/blog">
-                    <a>
-                      <Icon type="global" />
-                      <br />
-                      Blog Posts
-                    </a>
-                  </link>,
-                  <link href="/contact">
-                    <a>
-                      <Icon type="phone" />
-                      <br />
-                      Contact Me
-                    </a>
-                  </link>
+                  <Router>
+                    <Link to="/about">
+                      <a>
+                        <Icon type="user" />
+                        <br />
+                        About Me
+                      </a>
+                    </Link>,
+                    <Link to="/projects">
+                      <a>
+                        <Icon type="project" />
+                        <br />
+                        Past Projects
+                      </a>
+                    </Link>,
+                    <Link to="/blog">
+                      <a>
+                        <Icon type="global" />
+                        <br />
+                        Blog Posts
+                      </a>
+                    </Link>,
+                    <Link to="/contact">
+                      <a>
+                        <Icon type="phone" />
+                        <br />
+                        Contact Me
+                      </a>
+                    </Link>
+                  </Router>,
                 ]}
               >
                 <Card.Meta
