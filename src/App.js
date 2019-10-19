@@ -194,6 +194,8 @@ class App extends React.Component {
                 <Col span={1} />
               </Row>
               <br /><br />
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
             </Content>
           </Col>
         </Row>
@@ -228,4 +230,7 @@ class App extends React.Component {
     );
   }
 }
+
+const Home = () => <div><h2>Home</h2></div>
+const About = () => <div><h2>About</h2></div>
 export default App;
