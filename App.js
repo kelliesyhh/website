@@ -37,7 +37,8 @@ const description = (
   </div>
 );
 
-export default () => (
+class App extends React.Component {
+  return () {
   <Layout>
     <Header>
       <Row justify="center" type="flex" style={{backgroundColor: '#cce6ff'}}>
@@ -210,6 +211,7 @@ export default () => (
         </Col>
       </Row>
     </Footer>
-
   </Layout>
-);
+  }
+}
+export default App;
