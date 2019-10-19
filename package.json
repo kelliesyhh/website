@@ -1,9 +1,10 @@
 {
-  "homepage": "http://kelliesyhh.github.io/kellie-personal-website",
+  "homepage": "https://kelliesyhh.github.io/kellie-personal-website",
   "name": "kellie-personal-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.24.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
@@ -14,7 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
