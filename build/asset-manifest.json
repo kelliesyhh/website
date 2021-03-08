@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kellie-personal-website/static/css/main.d50c25b4.chunk.css",
-    "main.js": "/kellie-personal-website/static/js/main.31e112f6.chunk.js",
-    "main.js.map": "/kellie-personal-website/static/js/main.31e112f6.chunk.js.map",
-    "runtime-main.js": "/kellie-personal-website/static/js/runtime-main.a01d2ff9.js",
-    "runtime-main.js.map": "/kellie-personal-website/static/js/runtime-main.a01d2ff9.js.map",
-    "static/css/2.6547dd70.chunk.css": "/kellie-personal-website/static/css/2.6547dd70.chunk.css",
-    "static/js/2.9055bf1d.chunk.js": "/kellie-personal-website/static/js/2.9055bf1d.chunk.js",
-    "static/js/2.9055bf1d.chunk.js.map": "/kellie-personal-website/static/js/2.9055bf1d.chunk.js.map",
-    "index.html": "/kellie-personal-website/index.html",
-    "precache-manifest.1a873db9be888f6dacf2ea4651ee0d80.js": "/kellie-personal-website/precache-manifest.1a873db9be888f6dacf2ea4651ee0d80.js",
-    "service-worker.js": "/kellie-personal-website/service-worker.js",
-    "static/css/2.6547dd70.chunk.css.map": "/kellie-personal-website/static/css/2.6547dd70.chunk.css.map",
-    "static/css/main.d50c25b4.chunk.css.map": "/kellie-personal-website/static/css/main.d50c25b4.chunk.css.map",
-    "static/media/logo.svg": "/kellie-personal-website/static/media/logo.25bf045c.svg"
+    "main.css": "/website/static/css/main.16ef48a0.chunk.css",
+    "main.js": "/website/static/js/main.71d56437.chunk.js",
+    "main.js.map": "/website/static/js/main.71d56437.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.33189cf7.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.33189cf7.js.map",
+    "static/css/2.929389fa.chunk.css": "/website/static/css/2.929389fa.chunk.css",
+    "static/js/2.80e83ed1.chunk.js": "/website/static/js/2.80e83ed1.chunk.js",
+    "static/js/2.80e83ed1.chunk.js.map": "/website/static/js/2.80e83ed1.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.cdd12db1ff3a24d9a5e3778890c04d81.js": "/website/precache-manifest.cdd12db1ff3a24d9a5e3778890c04d81.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.929389fa.chunk.css.map": "/website/static/css/2.929389fa.chunk.css.map",
+    "static/css/main.16ef48a0.chunk.css.map": "/website/static/css/main.16ef48a0.chunk.css.map",
+    "static/media/logo.svg": "/website/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a01d2ff9.js",
-    "static/css/2.6547dd70.chunk.css",
-    "static/js/2.9055bf1d.chunk.js",
-    "static/css/main.d50c25b4.chunk.css",
-    "static/js/main.31e112f6.chunk.js"
+    "static/js/runtime-main.33189cf7.js",
+    "static/css/2.929389fa.chunk.css",
+    "static/js/2.80e83ed1.chunk.js",
+    "static/css/main.16ef48a0.chunk.css",
+    "static/js/main.71d56437.chunk.js"
   ]
 }
