@@ -16,7 +16,8 @@ import React from 'react';
 const {Header, Content, Footer} = Layout;
 const {TabPane} = Tabs;
 
-export default () => (
+const About = () => {
+  return (
   <Layout>
     <Header>
       <Row justify="center" type="flex" style={{backgroundColor: '#cce6ff'}}>
@@ -1555,4 +1556,6 @@ export default () => (
       </Row>
     </Footer>
   </Layout>
-);
+  )
+}
+export default About;

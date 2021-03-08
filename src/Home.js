@@ -37,12 +37,7 @@ const description = (
   </div>
 );
 
-class App extends React.Component {
-  constructor (props) {
-    super (props);
-    this.state = {};
-  }
-  render () {
+const Home = () => {
     return (
       <Layout>
         <Header>
@@ -226,9 +221,6 @@ class App extends React.Component {
         </Footer>
       </Layout>
     );
-  }
 }
 
-const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
-export default App;
+export default Home;
